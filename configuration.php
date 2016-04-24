@@ -12,10 +12,10 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysql';
-	public $host = 'localhost';
-	public $user = 'root';
-	public $password = '';
-	public $db = 't3';
+	public $host = 'db.office.mqplanet.com';
+	public $user = 'mapsig';
+	public $password = 'jB92EwU7EwWuda9J';
+	public $db = 'mapsig';
 	public $dbprefix = 't3_';
 	public $live_site = '';
 	public $secret = 'elQQwCEECxt4lpwX';
