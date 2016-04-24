@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" method="upgrade" client="site">
+	<name>MY Template</name>
+	<version>0.0.1</version>
+	<creationDate>19-04-2016</creationDate>
+	<author>MQPLANET.COM</author>
+	<authorEmail>taylorsuccessor@gmail.com</authorEmail>
+	<authorUrl>http://www.mqplanet.com</authorUrl>
+	<copyright>Copyright (C), MQ Planet. All Rights Reserved.</copyright>
+	<license>license MAPS/MQPLANET http://www.mqplanet.com/myTemplate/license.html</license>
+	<t3>
+		<base>base</base>
+	</t3>
+	<description>
+		<![CDATA[
+		<div align="center">
+		my template for joomla 3
+		</div>
+		]]>
+	</description>
+	<files>
+		<filename>templateDetails.xml</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>html</folder>
+		<folder>tpls</folder>
+	</files>
+
+	<positions>
+		<position>header</position>
+		<position>navbar</position>
+		<position>mainSlider</position>
+          <position>aside</position>
+		<position>body</position>
+		<position>footer</position>
+	</positions>
+
+	<config>
+		<fields name="params" addfieldpath="/plugins/system/t3/includes/depend">
+
+			<!-- Sample for add or disable template parameters -->
+		<fieldset name="menu_params" label="T3_PARAMS_MEGAMENU">
+			<field name="group_disable" type="t3depend" function="@group">
+				<option for="menu_as_bg" value="no">menu_as_bg</option>
+			</field>
+			<field name="templateVar" label="my template label" type="text" function="">
+
+			</field>
+			</fieldset>
+			
+		</fields>
+	</config>
+
+	<updateservers>
+		<server type="collection">http://update.joomlart.com/service/tracking/list.xml</server>
+	</updateservers>	
+
+</extension>

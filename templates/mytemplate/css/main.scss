@@ -1,0 +1,412 @@
+
+@import 'variables';
+
+@import 'classes';
+
+body{
+
+
+}
+
+.logo{ max-width: 100%;}
+
+#topPageIconsBar{float:right;
+  background-image:url('../images/cornerImg.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 40px 100%;
+
+  ul{
+    float:left;
+    margin: 4px 0px;
+    li{
+
+    }
+    a {
+      color:#EFE0DF;
+      border-right:1px solid #ffffff;
+      margin:3px 0px; }
+    i{
+      padding: 0px 10px;
+    }
+    span{
+      text-transform: uppercase;
+      padding-right:5px; letter-spacing: 1px;
+      font-size: 15px;  }
+
+
+
+
+  }
+
+  #headerSearchInput{
+    background-color:#70211A;
+    border-radius: 10px;
+    float:left;
+
+
+    margin: 5px 10px;
+    i{ color:#EFE0DF;font-size: 14px;}
+    input{width:60px; background-color:transparent;
+      height:17px;
+      margin: 0px !important;
+      outline:none;
+
+    }
+  }
+}
+
+#mainMenuContainer{
+  padding:20px 0px;
+}
+.mainMenu ul{
+  margin:0px;
+  margin-top:30px;
+  float:right;
+  li{
+
+    margin:0px;
+    a{
+      padding:5px 15px;
+      text-decoration: none;
+      text-transform:uppercase; letter-spacing: 2px; color:#595959;
+
+      &:hover{
+        background-color:$mainColor;
+        color:#ffffff ;
+      }
+    }
+  }
+}
+
+
+#pricesLine{
+
+  background-color:#32302f;
+  .oneSymbolPrice{
+    float:left;
+    padding:3px;
+
+    i.up{
+      color:green;
+    }
+    i.down{
+      color:red;
+    }
+    label{ color:#c7462e; margin:0px;}
+    span{
+      color:$liteFontColor;
+
+    }
+
+  }
+}
+
+
+#openAccountButtonsContainer{
+  margin-top:15px;
+  margin-bottom:50px;
+  padding-left:10%;
+  .button{ width:40%;}
+}
+
+
+
+
+
+
+#mapGroupContainer{
+  display:inline-block;
+  background-color:#F2F2F2;
+  #leftImgContainer{
+
+    img{
+      max-width:100%;
+    }
+  }
+
+  .oneGroup{
+    padding:20px;
+    span{
+      float:left;
+      margin:0px 10px 10px 0px;
+      display:block;
+      font-size:40px;
+      img{max-width: 70px; height: auto;}
+    }
+    h6{ color:$mainColor;}
+    p{ margin:5px 0px;
+
+      padding-left: 50px;}
+  }
+
+  .mainGroup{}
+}
+
+#rightGroupsContainer{
+}
+
+
+
+
+
+.oneDescriptionWithButton{
+  img{
+    float:left;
+    width:80px;
+
+  }
+  h3{padding-top:20px ;}
+  p{ clear: both;}
+  a{
+    display: block;
+    width: 150px;
+    margin: auto;
+  }
+
+}
+
+
+#softwareBanner{
+
+  margin:50px 0px;
+  margin-bottom:50px;
+  background-image:url('../images/platformsBackground.png');
+  height:267px;
+  padding-top:50px;
+
+  .innerContainer{
+    background-image: url(../images/computerPlatforms.png);
+    background-size: 451px 270px;
+    background-position: right 40px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 20px;
+    padding-top: 70px;
+    height: 270px;
+    margin-bottom: -80px;
+    padding-right: 405px;
+    h4{color:#43D7F1;}
+    p{color:#F8F9FA;}
+
+    a.button{ text-transform: uppercase;
+      padding:10px;
+      color:#ffffff;
+      margin:10px;
+    }
+    a.primaryButton{}
+
+    a.whiteButton{color:#717171; background-color:#D9D9D8;//#D9D9D8 to #FFFFFF
+      background: linear-gradient(to top,#D9D9D8,#FFFFFF);
+    }
+
+    a.blueButton{background-color:#202D36; //#202D36 to #5B788A
+      background: linear-gradient(to top,#202D36, #5F7B8C);
+    }
+  }
+}
+
+
+
+
+.columnLabelsContainer{
+  margin-top:30px;
+
+  .columnLabel{
+    float:left;
+    .labelBorder{
+      width:80%;
+      margin-left:10%;
+      border:1px solid #000000;
+      border-bottom:none;
+      text-align:center;
+      position:relative;
+      height:30px;
+    }
+    label{
+      position:absolute;
+      top:-20px;
+      display:inline-block;
+      background-color:#ffffff;
+      padding:3px 10px;
+
+    }
+  }
+
+  #leftLabel{width:60%;
+    .labelBorder{
+      width: 67%;
+      margin-left: 16%;}
+    label{
+      left: 29%;
+    }
+  }
+  #rightLabel{width:40%;
+    .labelBorder{
+      width: 55%;
+      margin-left: 25%;}
+    label{
+      left: 7%;
+    }
+  }
+
+}
+
+.accountsTypesColumns{
+  .oneAccountTypeColumn{
+    width:18%;
+    margin:1%;
+    float:left;
+    .innerContainer{
+      display:block;
+      padding:8%;
+
+      h3{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom:0px;
+        padding-bottom: 15px;
+
+      }
+      ul{
+        padding-top:20px;
+        padding-left:0px;
+        list-style: none;
+      }
+      ul li{
+
+        list-style: none;
+        margin:0px;
+      }
+
+      ul li:before{
+
+        font: normal normal normal 10px/1 FontAwesome;
+        content: "\f111";
+        margin-right:7px;
+      }
+
+      a{
+        width: 100%;
+
+      }
+    }
+  }
+  .oneAccountTypeColumn.white{
+    background: linear-gradient(to top,#D9D9D8,#FFFFFF);
+    border:1px solid #BEBEBE;
+    color:#6D6D6D;
+
+    h3{
+
+      border-bottom: 1px solid #BEBEBE;
+    }
+    ul li:before{
+
+      color:#6D6D6D;
+    }
+  }
+  .oneAccountTypeColumn.dark{
+    background:$mainColor;
+    border:1px solid #963B30;
+    color:#ffffff;
+    h3{
+      border-bottom:1px solid #862A1F;
+    }
+    ul{
+      border-top:1px solid #BB4637;}
+    ul li:before{
+
+      color:#691E15;
+    }
+  }
+}
+
+
+
+
+#paymentLine{
+
+  div{
+    float:left;
+    width:10%;
+    text-align: center;
+  }
+  img{
+    max-width: 100%;
+  }
+}
+
+
+#bottomBoxesMenus{
+  background-color:#303236;
+
+  .container{padding-top:20px;padding-bottom:20px;}
+  .oneMenuBox{
+    h5{
+
+      border-bottom:1px solid #6D6D6D;
+      color:$mainColor;
+      margin-bottom:0px;
+      padding-bottom:10px;
+      text-transform: uppercase;
+
+    }
+    ul{
+      border-top:1px solid #3C3F45;
+      list-style:none;
+      margin:0px;
+      padding:0px;
+    }
+    ul li,ol li{
+      list-style:none;
+    }
+    ol{
+      list-style:none;
+      margin:0px;
+      margin-top:10px;
+
+      padding:0px;
+
+    }
+    ol li{
+      float:left;
+      width:20%;
+      text-align:center;
+
+
+    }
+
+    a{
+      display:block;
+      padding:5px;
+      color:#ffffff;
+      text-transform: capitalize;
+      text-decoration: none;
+
+    }
+    a:hover{
+      background-color:#202124;
+    }
+
+  }
+}
+
+
+
+#bottomRow{
+
+  text-align: center;
+  color:#ffffff;
+  background-color:#202124;
+  p{
+    font-size: 10px;
+    padding:20px 0px;
+    text-align: justify;
+    color:#A7A7A7;
+  }
+
+  b{}
+}
+
+@import 'slider';

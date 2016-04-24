@@ -1,0 +1,55 @@
+.sliderSection{}
+.sliderAllContainer{
+
+            .oneSlide{
+height:459px;
+              background-image:url('../images/sliderFirstBanner.png');
+              background-size:cover;
+              .oneSlideContent{
+                float:right;
+                margin:160px 130px 0px 0px;
+                width:467px;
+
+              h3{background-color:$mainColor;
+              color:#ffffff;
+                float:right;
+                padding:5px 10px;
+                letter-spacing: 5px;
+                font-weight:normal;
+                font-size:22px;
+              }
+              div.listContanir{
+
+                float:left;
+                padding:20px 10px;
+                overflow:auto;
+clear:both;
+                width:100%;
+
+                background: linear-gradient(to left,#111111, transparent);
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+                *{color:#A1A3A3;}
+              h6{}
+              ul{
+                float:left;
+                padding:0px;
+
+                width:90%;
+                li{list-style: none;
+                  width:50%;
+                  font-size: 14px;
+
+
+float:left;
+                  text-transform: uppercase;
+                }
+                img{}
+              }
+
+              }
+              }
+            }
+
+
+}
