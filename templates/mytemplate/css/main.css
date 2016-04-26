@@ -50,7 +50,7 @@ a {
   color: #ffffff;
   border: 1px solid #AE756D; }
   .primaryButton:hover {
-    color: #912d25;
+    color: #912d25 !important;
     border: 1px solid #912d25;
     background-color: #ffffff; }
 
@@ -163,12 +163,12 @@ a {
     width: 40%; }
 
 #mapGroupContainer {
-  display: inline-block;
+  display: block;
   background-color: #F2F2F2; }
   #mapGroupContainer #leftImgContainer img {
     max-width: 100%; }
   #mapGroupContainer .oneGroup {
-    padding: 20px; }
+    padding: 5px; }
     #mapGroupContainer .oneGroup span {
       float: left;
       margin: 0px 10px 10px 0px;
@@ -181,15 +181,18 @@ a {
       color: #912d25; }
     #mapGroupContainer .oneGroup p {
       margin: 5px 0px;
-      padding-left: 50px; }
+      padding-left: 50px;
+      font-size: 12px; }
 
 .oneDescriptionWithButton img {
   float: left;
   width: 80px; }
 .oneDescriptionWithButton h3 {
-  padding-top: 20px; }
+  padding-top: 20px;
+  font-size: 20pt; }
 .oneDescriptionWithButton p {
-  clear: both; }
+  clear: both;
+  font-size: 12pt; }
 .oneDescriptionWithButton a {
   display: block;
   width: 150px;
@@ -213,7 +216,10 @@ a {
     margin-bottom: -80px;
     padding-right: 405px; }
     #softwareBanner .innerContainer h4 {
-      color: #43D7F1; }
+      color: #43D7F1;
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 4px; }
     #softwareBanner .innerContainer p {
       color: #F8F9FA; }
     #softwareBanner .innerContainer a.button {
@@ -273,7 +279,8 @@ a {
       text-align: center;
       margin-top: 20px;
       margin-bottom: 0px;
-      padding-bottom: 15px; }
+      padding-bottom: 15px;
+      font-size: 18pt; }
     .accountsTypesColumns .oneAccountTypeColumn .innerContainer ul {
       padding-top: 20px;
       padding-left: 0px;
@@ -323,12 +330,15 @@ a {
     color: #912d25;
     margin-bottom: 0px;
     padding-bottom: 10px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold; }
   #bottomBoxesMenus .oneMenuBox ul {
     border-top: 1px solid #3C3F45;
     list-style: none;
     margin: 0px;
-    padding: 0px; }
+    padding: 0px;
+    min-height: 120px; }
   #bottomBoxesMenus .oneMenuBox ul li, #bottomBoxesMenus .oneMenuBox ol li {
     list-style: none; }
   #bottomBoxesMenus .oneMenuBox ol {
@@ -342,10 +352,11 @@ a {
     text-align: center; }
   #bottomBoxesMenus .oneMenuBox a {
     display: block;
-    padding: 5px;
+    padding: 3px;
     color: #ffffff;
     text-transform: capitalize;
-    text-decoration: none; }
+    text-decoration: none;
+    font-size: 12px; }
   #bottomBoxesMenus .oneMenuBox a:hover {
     background-color: #202124; }
 
@@ -358,6 +369,11 @@ a {
     padding: 20px 0px;
     text-align: justify;
     color: #A7A7A7; }
+  #bottomRow b {
+    font-weight: normal;
+    font-size: 14px;
+    padding-bottom: 20px;
+    display: block; }
 
 .sliderAllContainer .oneSlide {
   height: 459px;

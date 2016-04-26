@@ -30,6 +30,21 @@ defined('_JEXEC') or die;
 
 
 
+<!--<div class="clearfix"></div>-->
+<!--<div class="row">-->
+<!--    <div class="clearfix"></div>-->
+<!--    <div id="mapGroupContainer">-->
+<!---->
+<!--        <div styte="height:40px; clear:both; background-color:#f00; width:100% !important;">dsf</div>-->
+<!---->
+<!--        <div class="clearfix"></div>-->
+<!--    </div>-->
+<!---->
+<!--    <div class="clearfix"></div>-->
+<!--    <div class="shadowLine"></div>-->
+<!--</div>-->
+<!--<div class="clearfix"></div>-->
+
 <div class="row">
     <div id="mapGroupContainer">
 

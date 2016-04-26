@@ -116,7 +116,7 @@ body{
 
 
 #mapGroupContainer{
-  display:inline-block;
+  display:block;
   background-color:#F2F2F2;
   #leftImgContainer{
 
@@ -126,7 +126,7 @@ body{
   }
 
   .oneGroup{
-    padding:20px;
+    padding:5px;
     span{
       float:left;
       margin:0px 10px 10px 0px;
@@ -137,7 +137,9 @@ body{
     h6{ color:$mainColor;}
     p{ margin:5px 0px;
 
-      padding-left: 50px;}
+      padding-left: 50px;
+    font-size:12px;
+    }
   }
 
   .mainGroup{}
@@ -156,8 +158,9 @@ body{
     width:80px;
 
   }
-  h3{padding-top:20px ;}
-  p{ clear: both;}
+  h3{padding-top:20px ;font-size: 20pt;}
+  p{ clear: both;
+    font-size: 12pt;}
   a{
     display: block;
     width: 150px;
@@ -186,7 +189,7 @@ body{
     height: 270px;
     margin-bottom: -80px;
     padding-right: 405px;
-    h4{color:#43D7F1;}
+    h4{color:#43D7F1; font-size: 22px; font-weight: bold; letter-spacing: 4px;}
     p{color:#F8F9FA;}
 
     a.button{ text-transform: uppercase;
@@ -266,6 +269,7 @@ body{
         margin-top: 20px;
         margin-bottom:0px;
         padding-bottom: 15px;
+        font-size:18pt;
 
       }
       ul{
@@ -350,6 +354,8 @@ body{
       margin-bottom:0px;
       padding-bottom:10px;
       text-transform: uppercase;
+      font-size: 14px;
+      font-weight: bold;
 
     }
     ul{
@@ -357,6 +363,7 @@ body{
       list-style:none;
       margin:0px;
       padding:0px;
+      min-height: 120px;
     }
     ul li,ol li{
       list-style:none;
@@ -379,10 +386,11 @@ body{
 
     a{
       display:block;
-      padding:5px;
+      padding:3px;
       color:#ffffff;
       text-transform: capitalize;
       text-decoration: none;
+      font-size: 12px;
 
     }
     a:hover{
@@ -406,7 +414,11 @@ body{
     color:#A7A7A7;
   }
 
-  b{}
+  b{
+    font-weight: normal;
+    font-size: 14px;
+  padding-bottom:20px;
+  display:block;}
 }
 
 @import 'slider';
