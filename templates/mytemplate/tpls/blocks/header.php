@@ -3,7 +3,7 @@
 // Layout configuration
 $layout_config = json_decode ('{
     "no_sidebars": {
-      "default" : [ "span7 offset5" ,"col-xs-10"        ],
+      "default" : [ "span7 offset5" ,"col-xs-9"        ],
       "wide"    : [],
       "normal" : [ "span10 offset2"],
       "xtablet" : ["span10 offset2"],
@@ -69,7 +69,7 @@ $col = 0;
 <div class="row clearfix">
     <div class="container" id="mainMenuContainer" >
 
-        <div class="col-xs-2">
+        <div class="col-xs-3">
             <img src="<?=T3Path::getUrl('images/logo.png', '', true) ; ?>" class="logo">
         </div>
 

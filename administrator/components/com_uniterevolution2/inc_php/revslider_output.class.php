@@ -1922,9 +1922,10 @@
 				if($this->jsToBody == true){
 					$urlIncludeJSTools = GlobalsRevSlider::$url_item_plugin."js/jquery.themepunch.tools.min.js?rev=". GlobalsRevSlider::SLIDER_REVISION;
 					$htmlBeforeSlider .= "<script type='text/javascript' src='$urlIncludeJSTools'></script>\n";
-					$enable_logs = UniteFunctionsRev::getVal($arrValues, "enable_logs",'off');
+					@$enable_logs = UniteFunctionsRev::getVal($arrValues, "enable_logs",'off');
 					
 					if($enable_logs == 'on'){
+
 						$urlIncludeJS = UniteBaseClassRev::$url_plugin."rs-plugin/js/jquery.themepunch.enablelog.js?rev=". GlobalsRevSlider::SLIDER_REVISION;
 						$htmlBeforeSlider .= "<script type='text/javascript' src='$urlIncludeJS'></script>";
 					}
