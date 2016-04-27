@@ -379,15 +379,15 @@ a {
     padding-bottom: 20px;
     display: block; }
 
-.sliderAllContainer .oneSlide {
+.sliderAllContainer .oneSlide, .sliderSection .oneSlide {
   height: 459px;
   background-image: url("../images/sliderFirstBanner.png");
   background-size: cover; }
-  .sliderAllContainer .oneSlide .oneSlideContent {
+  .sliderAllContainer .oneSlide .oneSlideContent, .sliderSection .oneSlide .oneSlideContent {
     float: right;
     margin: 160px 130px 0px 0px;
     width: 467px; }
-    .sliderAllContainer .oneSlide .oneSlideContent h3 {
+    .sliderAllContainer .oneSlide .oneSlideContent h3, .sliderSection .oneSlide .oneSlideContent h3 {
       background-color: #912d25;
       color: #ffffff;
       float: right;
@@ -395,7 +395,7 @@ a {
       letter-spacing: 5px;
       font-weight: normal;
       font-size: 22px; }
-    .sliderAllContainer .oneSlide .oneSlideContent div.listContanir {
+    .sliderAllContainer .oneSlide .oneSlideContent div.listContanir, .sliderSection .oneSlide .oneSlideContent div.listContanir {
       float: left;
       padding: 20px 10px;
       overflow: auto;
@@ -404,13 +404,13 @@ a {
       background: linear-gradient(to left, #111111, transparent);
       border-top-right-radius: 5px;
       border-bottom-right-radius: 5px; }
-      .sliderAllContainer .oneSlide .oneSlideContent div.listContanir * {
+      .sliderAllContainer .oneSlide .oneSlideContent div.listContanir *, .sliderSection .oneSlide .oneSlideContent div.listContanir * {
         color: #A1A3A3; }
-      .sliderAllContainer .oneSlide .oneSlideContent div.listContanir ul {
+      .sliderAllContainer .oneSlide .oneSlideContent div.listContanir ul, .sliderSection .oneSlide .oneSlideContent div.listContanir ul {
         float: left;
         padding: 0px;
         width: 90%; }
-        .sliderAllContainer .oneSlide .oneSlideContent div.listContanir ul li {
+        .sliderAllContainer .oneSlide .oneSlideContent div.listContanir ul li, .sliderSection .oneSlide .oneSlideContent div.listContanir ul li {
           list-style: none;
           width: 50%;
           font-size: 14px;
