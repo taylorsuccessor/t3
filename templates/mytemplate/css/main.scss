@@ -220,14 +220,24 @@ cursor:pointer;
       color:#ffffff;
       margin:10px;
     }
-    a.primaryButton{}
+    a.primaryButton{  background: linear-gradient(to top,$mainColor, #ff745b);
+    &:hover{
+      background: linear-gradient(to top, #ff745b,$mainColor );
+      color:#ffffff !important;
+    }}
 
-    a.whiteButton{color:#717171; background-color:#D9D9D8;//#D9D9D8 to #FFFFFF
+    a.whiteButtonMain{color:#717171; background-color:#D9D9D8;//#D9D9D8 to #FFFFFF
       background: linear-gradient(to top,#D9D9D8,#FFFFFF);
+      &:hover{
+        background: linear-gradient(to top,#FFFFFF,#D9D9D8);
+      }
     }
 
     a.blueButton{background-color:#202D36; //#202D36 to #5B788A
       background: linear-gradient(to top,#202D36, #5F7B8C);
+      &:hover{
+        background: linear-gradient(to top,#5F7B8C,#202D36 );
+      }
     }
   }
 }

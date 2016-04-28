@@ -54,6 +54,15 @@ a {
     border: 1px solid #912d25;
     background-color: #ffffff; }
 
+.whiteButton {
+  color: #912d25 !important;
+  border: 1px solid #912d25;
+  background-color: #ffffff; }
+  .whiteButton:hover {
+    background-color: #912d25;
+    color: #ffffff !important;
+    border: 1px solid #AE756D; }
+
 .longButton {
   padding: 5px 30px; }
 
@@ -250,13 +259,22 @@ a {
       padding: 10px;
       color: #ffffff;
       margin: 10px; }
-    #softwareBanner .innerContainer a.whiteButton {
+    #softwareBanner .innerContainer a.primaryButton {
+      background: linear-gradient(to top, #912d25, #ff745b); }
+      #softwareBanner .innerContainer a.primaryButton:hover {
+        background: linear-gradient(to top, #ff745b, #912d25);
+        color: #ffffff !important; }
+    #softwareBanner .innerContainer a.whiteButtonMain {
       color: #717171;
       background-color: #D9D9D8;
       background: linear-gradient(to top, #D9D9D8, #FFFFFF); }
+      #softwareBanner .innerContainer a.whiteButtonMain:hover {
+        background: linear-gradient(to top, #FFFFFF, #D9D9D8); }
     #softwareBanner .innerContainer a.blueButton {
       background-color: #202D36;
       background: linear-gradient(to top, #202D36, #5F7B8C); }
+      #softwareBanner .innerContainer a.blueButton:hover {
+        background: linear-gradient(to top, #5F7B8C, #202D36); }
 
 .columnLabelsContainer {
   margin-top: 30px; }
