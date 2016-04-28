@@ -60,26 +60,44 @@ body{
 #mainMenuContainer{
   padding:20px 0px;
 }
-.mainMenu ul{
+.mainMenu>ul{
+  ul.nav-child {
+    width:220px !important;
+
+    margin:0px;
+    padding:0px;
+    li{
+      position:relative;
+      display:block;
+      margin:1px 3%;
+      width:94%;
+      ul.nav-child {position:absolute; left:100%;top:0px;}
+    }
+    span,a{font-size:10px !important;padding:3px 0px;margin:0px 4px;}
+  }
   margin:0px;
   margin-top:37px;
   float:right;
   li{
-
+cursor:pointer;
     margin:0px;
-    a{
-      padding:5px 15px;
+
+    padding:5px 15px;
       text-decoration: none;
       text-transform:uppercase;
       letter-spacing: 2px;
+    a,span{
       color:#595959;
+      display:block;
+      font-size: 10pt !important;
+      margin:0px;
+    }
 
-      font-size: 10pt;
       font-weight: bold;
-      &:hover{
-        background-color:$mainColor;
-        color:#ffffff ;
-      }
+
+    &:hover, &:hover>a, &:hover>span{
+          background-color:$mainColor;
+          color:#ffffff ;
     }
   }
 }
@@ -220,6 +238,10 @@ body{
 .columnLabelsContainer{
   margin-top:30px;
 
+  @media screen and (max-width: 1000px) {
+    display: none;
+
+  }
   .columnLabel{
     float:left;
     .labelBorder{
@@ -264,7 +286,12 @@ body{
   .oneAccountTypeColumn{
     width:18%;
     margin:1%;
-    float:left;
+
+    @media screen and (max-width: 1000px) {
+      width: 100%;
+
+    }
+      float:left;
     .innerContainer{
       display:block;
       padding:8%;

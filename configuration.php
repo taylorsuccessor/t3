@@ -58,7 +58,7 @@ class JConfig {
 	public $feed_email = 'none';
 	public $log_path = 'F:\\wamp\\www\\t3/logs';
 	public $tmp_path = 'F:\\wamp\\www\\t3/tmp';
-	public $lifetime = '15';
+	public $lifetime = '999';
 	public $session_handler = 'database';
 	public $memcache_persist = '1';
 	public $memcache_compress = '0';
