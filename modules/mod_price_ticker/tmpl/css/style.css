@@ -1,11 +1,11 @@
  #scroller_quotes li {font-size: 12px; color:#fff;float:left;font-family:Varela Round;line-height:22px;list-style: none outside none;padding:0 10px 0 0}
- .quotes{height:22px;overflow:hidden;margin:auto;position:relative;  border-bottom: 1px solid #D0432B;}
+ .quotes{height:30px; padding-top:4px;overflow:hidden;margin:auto;position:relative;  border-bottom: 1px solid #D0432B;}.quotes *{ font-size:16px;}
  .simply-scroll-clip {height:22px;overflow: hidden;position:absolute;width:100%;right:0;background-color:#32302f}
  .body_quotes span.price-ticker {float: left;font-size: 14px;font-weight: bold;margin-top: 10px;padding: 0 4px}
  .simply-scroll-list {height: 100%;left: 0;list-style: none outside none;margin: 0;overflow: hidden;padding: 0;position: absolute;top: 0;z-index: 1}
  .up_quotes_arrow{width:7px;height:5px;background:url("../images/up.png") no-repeat}
  .down_quotes_arrow{width:7px;height:5px;background:url("../images/down.png") no-repeat}
- .quotes-image img{margin:0 2px}
+ .quotes img{margin:0 2px;width:15px;}
  .quotes_symbol{color:#D0432B}
- img{margin:0 5px}
+ /*img{margin:0 5px}*/
  .ticker-title{width:95px;padding-left:19px;padding-right:10px;background:url("../images/ticker-arrow.gif") no-repeat right #376079;color:#FFF;font-weight:bold;display:block;line-height:22px;float:left;font-size:12px;text-shadow:1px 1px #000}
