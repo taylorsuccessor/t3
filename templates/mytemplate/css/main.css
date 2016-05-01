@@ -423,6 +423,60 @@ a {
     padding-bottom: 20px;
     display: block; }
 
+.innerPagesContainer {
+  background-color: #ececec; }
+
+.innerAside {
+  padding: 30px 3%; }
+  .innerAside .button {
+    display: block;
+    width: 100%;
+    margin: 3% 0px; }
+  .innerAside .nav {
+    border-top: 1px solid #ADB1B1;
+    margin: 20px 10% 0 10%;
+    padding-top: 20px; }
+    .innerAside .nav * {
+      background-color: transparent !important; }
+    .innerAside .nav a, .innerAside .nav span {
+      color: #000; }
+    .innerAside .nav li {
+      list-style: disc;
+      clear: both; }
+      .innerAside .nav li ul {
+        display: block !important;
+        position: relative !important;
+        border: none;
+        margin-left: 20px; }
+        .innerAside .nav li ul a, .innerAside .nav li ul span {
+          font-size: 12px; }
+    .innerAside .nav li.active {
+      color: #912d25; }
+      .innerAside .nav li.active > a, .innerAside .nav li.active > span {
+        color: #912d25; }
+
+.innerBanner {
+  height: 200px;
+  position: relative; }
+  .innerBanner img {
+    width: 100%;
+    height: 200px; }
+  .innerBanner h3 {
+    position: absolute;
+    left: 30%;
+    top: 75px;
+    text-transform: uppercase;
+    color: #ffffff; }
+  .innerBanner:after {
+    content: "";
+    width: 100%;
+    display: block;
+    clear: both; }
+
+.innerPagesBody {
+  padding: 30px 10px;
+  background-color: #ffffff; }
+
 .sliderAllContainer .oneSlide, .sliderSection .oneSlide {
   height: 459px;
   background-image: url("../images/sliderFirstBanner.png");

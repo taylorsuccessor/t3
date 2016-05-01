@@ -57,6 +57,9 @@
 		<position>position-16</position>
 		<position>footerLine</position>
 
+
+		<position>innerAside</position>
+
 	</positions>
 
 	<config>

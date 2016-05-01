@@ -10,7 +10,11 @@ defined('_JEXEC') or die;
 
 <jdoc:include type="message" />
 
-<jdoc:include type="component" />
+
+
+
+
+
 <div class="row">
     <?php if ($this->countModules('position-2')) : ?>
             <jdoc:include type="modules" name="<?php $this->_p('position-2') ?>" style="raw" />
@@ -50,7 +54,8 @@ defined('_JEXEC') or die;
 
 
 
-        <?php if ($this->countModules('position-4')) : ?>
+
+        <?php if ($this->countModules('position-4')  ) : ?>
 
         <div class="col-xs-5">
             <jdoc:include type="modules" name="<?php $this->_p('position-4') ?>" style="raw" />
@@ -68,8 +73,10 @@ defined('_JEXEC') or die;
 
 
     </div>
-
+    <?php if ($this->countModules('position-4') && $this->countModules('position-5') ) : ?>
     <div class="shadowLine"></div>
+
+    <?php endif ?>
 </div>
 
 

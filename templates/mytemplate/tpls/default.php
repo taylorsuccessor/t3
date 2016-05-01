@@ -35,6 +35,10 @@ defined('_JEXEC') or die;
 
 
 <section>
+  <?php $this->loadBlock ('inner') ?>
+</section>
+
+<section>
 
   <?php $this->loadBlock ('body') ?>
 </section>
